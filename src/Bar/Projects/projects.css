@@ -1,0 +1,12 @@
+.Projects{
+    width: 50%;
+    position: absolute;
+    color:white;
+    top: 65px;
+    left: 25%;
+    font-size: 30px;
+    text-shadow: 2px 2px #0000;
+}
+.p{
+    width: 100%;
+}

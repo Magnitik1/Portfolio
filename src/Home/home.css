@@ -1,0 +1,15 @@
+.Home{
+    font-size: 23px;
+}
+.aboutMe{
+    position: absolute;
+    color:white;
+    top: 65px;
+    left: 20%;
+}
+.me{
+    border-radius: 5px;
+    width: 175px;
+    position: absolute;
+    z-index: 3;
+}
