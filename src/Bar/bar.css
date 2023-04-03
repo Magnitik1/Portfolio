@@ -1,0 +1,69 @@
+.Bar{
+    position: fixed;
+    z-index: 2;
+    height: 43px;
+    width: 100%;
+    background: rgb(3, 0, 60);
+}
+.BarHeight{
+    height: 86px;
+}
+.mybar{
+    top: 33px;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    height: 3px;
+    border-width: 0;
+    color: white;
+    background: white;
+}
+.mybartop{
+    align-items: center;
+    top:75px;
+}
+.contact{
+    position: absolute;
+    color: white;
+    font-size: 33px;
+    font-family:'Segoe UI, Tahoma, Geneva, Verdana, sans-serif';
+    z-index: 4;
+    text-align: center;
+    right:20%;
+}
+.contactPosition{
+    right: 30%;
+    top: 43px;
+}
+.projects{
+    position: absolute;
+    color: white;
+    font-size: 33px;
+    font-family:'Segoe UI, Tahoma, Geneva, Verdana, sans-serif';
+    z-index: 4;
+    text-align: center;
+    left:25%;
+}
+.contact:hover .myinfo{
+    display: initial;
+}
+.myinfo{
+    display: none;
+    z-index: 4;
+    position: absolute;
+    width: 310px;
+    height: 200px;
+    background-image: url(/src/pic/bg.png);
+    background-size: cover;
+    right:-46%;
+    top:100%;
+    border-radius: 7px;
+}
+
+.sized{
+    font-size: 25px;
+}
+.mynone{
+    text-decoration: none;
+    color: white;
+}

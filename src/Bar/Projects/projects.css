@@ -1,0 +1,16 @@
+.Projects{
+    width: 50%;
+    position: absolute;
+    color:white;
+    top: 90px;
+    left: 25%;
+    font-size: 30px;
+    text-shadow: 2px 2px #0000;
+}
+.NarrowProjects{
+    width: 90%;
+    left: 5%;
+}
+.p{
+    width: 100%;
+}
